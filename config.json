@@ -1,0 +1,9 @@
+{
+    "streamPeriod":300000,
+    "devicePoll":60000,
+    "pressure_range":250,
+    "temperature_range":100,
+    "humidity_range":95,
+    "deltaPercent":1,
+    "altitude":1750
+}

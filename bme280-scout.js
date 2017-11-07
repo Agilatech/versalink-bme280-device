@@ -1,5 +1,5 @@
 
-const options = require('./options');
+const config = require('./config');
 
 const Scout = require('zetta-scout');
 const bme280 = require('./bme280');
@@ -7,21 +7,21 @@ const util = require('util');
 
 const Bme280Scout = module.exports = function(opts) {
     
-  // see if any of the options were overridden in the server
+  // see if any of the config options were overridden in the server
 
   if (typeof opts !== 'undefined') {
-    // copy all options defined in the server
+    // copy all config options defined in the server
     for (const key in opts) {
       if (typeof opts[key] !== 'undefined') {
-        options[key] = opts[key];
+        config[key] = opts[key];
       }
     }
   }
 
-  if (options.name == 'undefined') { options.name = "BME280" }
-  this.name = options.name;
+  if (config.name == 'undefined') { config.name = "BME280" }
+  this.name = config.name;
     
-  this.Bme280 = new bme280(options);
+  this.Bme280 = new bme280(config);
 
   Scout.call(this);
 };
