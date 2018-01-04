@@ -1,6 +1,6 @@
 {
   "name": "@agilatech/versalink-bme280-device",
-  "version": "0.8.2",
+  "version": "0.9.0",
   "description": "BME280 Pressure/Temperature/Humidity sensor device driver for use in the Agilatech VersaLink system",
   "main": "bme280-scout.js",
   "repository": {
