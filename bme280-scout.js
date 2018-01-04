@@ -1,7 +1,5 @@
-
 const config = require('./config');
-
-const Scout = require('zetta-scout');
+const Scout = require(process.versalink.scout);
 const Bme280 = require('./bme280');
 
 module.exports = class Bme280Scout extends Scout {

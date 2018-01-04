@@ -3,15 +3,9 @@
   "version": "0.8.2",
   "description": "BME280 Pressure/Temperature/Humidity sensor device driver for use in the Agilatech VersaLink system",
   "main": "bme280-scout.js",
-  "directories": {
-    "example": "example"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "ssh://scott@209.200.216.6:22125/volume1/git_repos/versalink-bme280-device"
+    "url": "git+https://github.com/Agilatech/versalink-bme280-device.git"
   },
   "keywords": [
     "sensor",
@@ -23,10 +17,8 @@
     "Humidity"
   ],
   "author": "Agilatech <scott@agilatech.com> (http://agilatech.com)",
-  "license": "SEE LICENSE in LICENSE",
+  "license": "MIT",
   "dependencies": {
-    "@agilatech/versalink-device": "*",
-    "zetta-scout": "*",
     "@agilatech/bme280": "*"
   }
 }
