@@ -1,9 +1,9 @@
-##VersaLink BME280 Pressure/Temperature/Humidity sensor device driver
+## VersaLink BME280 Pressure/Temperature/Humidity sensor device driver
 
 This device driver is specifically designed to be used with the Agilatech® VersaLink IIoT Platform.
 Please see [agilatech.com](https://agilatech.com/software) to download a copy of the system.
 
-###Install
+### Install
 ```
 $> npm install @agilatech/versalink-bme280-device
 ```
@@ -140,12 +140,19 @@ This device driver has a binary state: __on__ or __off__. When off, no parameter
 
 
 ### Compatibility
-VersaLink will operate on any computer from a small single board computer up to large cloud server, using any of the following operating systems:
+This driver runs under VersaLink operating on any computer from a small single board computer up to large cloud server, using any of the following operating systems:
 * 32 or 64-bit Linux
+* Windows 7 and up
 * macOS and OS X
 * SunOS
 * AIX
 
 
-###Copyright
+### Copyright
 Copyright © 2018 [Agilatech®](https://agilatech.com). All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
